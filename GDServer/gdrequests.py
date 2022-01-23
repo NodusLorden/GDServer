@@ -63,7 +63,8 @@ class GetProfileById(Server):
         self.response = self.request(data)
 
     def convert(self):
-        return self.response
+        """"Тут пока пусто"""
+        return None
 
 
 class GetUserInfoByName(Server):
